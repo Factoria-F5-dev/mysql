@@ -2,6 +2,8 @@
 
 Curso gratuito de mysql de Oracle: https://mylearn.oracle.com/ou/learning-path/mysql-getting-started/54552
 
+Web para practicar: https://www.sql-easy.com/
+
 Teoría y ejercicios: https://sqlbolt.com/
 
 Super para aprender mysql: https://mystery.knightlab.com/
