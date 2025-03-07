@@ -1,0 +1,27 @@
+services:
+  mysql:
+    image: "mysql:8.0"
+    container_name: mysql8
+    restart: always
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./hr-schema-mysql.sql:/docker-entrypoint-initdb.d/hr-schema-mysql.sql  
+      #- /Users/Jorge/Desktop/mysql_data:/var/lib/mysql  
+    env_file: .env
+    ports:
+      - "3306:3306"
+    networks:
+      - bd_network
+    healthcheck: 
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 5s
+
+volumes:
+  mysql_data:
+
+networks:
+  bd_network:
+    driver: bridge
