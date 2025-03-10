@@ -33,14 +33,14 @@ Podemos comprobar que el la linea 10 del compose ha ejecutado el archivo sql y y
 
 Con los datos cargados en el docker realiza las siguientes consultas
 
-- Consultar los empleados del departamento de ventas que no tienen comisión.
-- Consultar los empleados que ingresaron a laborar el primer trimestre del año 1981.
-- Consultar los empleados cuyo ingreso (salario + comisión) supera los 2500.
-- Consultar los empleados cuya penúltima letra de su nombre es E.
-- Consultar los empleados que la segunda letra de su nombre puede ser A, O u I.
-- Se necesita saber cuánto es la planilla por cada departamento.
-- Se necesita saber quiénes son los empleados que tienen el salario más alto por departamento.
-- Se necesita saber el salario máximo, mínimo y el salario promedio por departamento.
+- 1. Consultar los empleados del departamento de ventas que no tienen comisión.
+- 2. Consultar los empleados que ingresaron en 1987.
+- 3. Consultar los empleados cuyo ingreso (salario + comisión) supera los 2500. 
+- 4. Consultar los empleados cuya penúltima letra de su nombre es E.
+- 5. Consultar los empleado que la segunda letra de su nombre puede ser A, i, o, u.
+- 6. Se necesita saber cuánto es el gasto total en salarios por cada departamento.
+- 7. Desarrolle una consulta que liste las ciudades de la región Europe donde trabajan nuestros empleados.
+- 8. Se necesita saber el salario máximo, mínimo y el salario promedio por departamento.
 
 Esta es la estructura de los datos
 
