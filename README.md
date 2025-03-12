@@ -1,10 +1,10 @@
 # CONTENEDOR CON MYSQL
 
-Descargar y ejecutar: ``docker compose up p docker-compose up``
+Descargar y ejecutar: `docker compose up` o `docker-compose up`
 
 Si no existe un Dockerfile en el directorio, Docker descargará automáticamente la imagen oficial de MySQL (versión 8.0) desde Docker Hub.
 
-Las variables las coge del .env 
+Las variables las coge del .env (Duplica .env.example ;))
 
 Acceder al contenedor con mysql
 
